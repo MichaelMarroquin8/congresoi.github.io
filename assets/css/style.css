@@ -1806,3 +1806,16 @@ section {
     padding: 2px 0;
   }
 }
+
+.imagen-redonda {
+  width: 110px; /* Puedes ajustar el tamaño según tus necesidades */
+  height: 130px; /* Puedes ajustar el tamaño según tus necesidades */
+  border-radius: 70%; /* Hace que la imagen sea redonda (la mitad del tamaño definido) */
+  object-fit: cover; /* Asegura que la imagen se ajuste dentro del contenedor redondeado */
+}
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
